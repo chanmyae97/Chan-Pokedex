@@ -4,7 +4,7 @@ import { SideNav } from "./components/SideNav";
 import { useState } from "react";
 
 function App() {
-  const [selectedPokemon, setSelectedPokemon] = useState(24);
+  const [selectedPokemon, setSelectedPokemon] = useState(0);
 
   return (
     <>
